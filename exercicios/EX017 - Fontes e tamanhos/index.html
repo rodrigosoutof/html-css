@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            /*Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw
+            em - Relativo ao tamnho M de uma fonte
+            ex - Relativo a autura x de uma fonte
+            rem - Relativo a fonte do body
+            vw - Relativo ao tamanho da View Port(largura da tela utilizada)
+            % - Relativo a porcentagem da tela
+
+            Recomendado pela W3c utilizar px e em.
+
+            16px é o tamnho normal de uma fonte
+
+            16px geralmente = 1em
+
+            Utilizamos o weight para dar peso as fontes:
+            lighter, normal, bold e bolder
+            */
+            
+            }
+            p{
+                text-align: justify;
+            }
+            h1{
+                /*font-family: cursive, monospace;*/
+            font-size: 2em;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+
+            /*shorthand font - simplificando linha
+            Ordem -> font-style -> font-weight -> font-size -> font-family
+                - font: italic bolder 3em 'Work Sans', sans-serif
+            */
+            }
+            h2{
+                font: italic bold 2em 'Courier';
+            }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic quo blanditiis, ipsum fuga culpa fugiat consequatur quos eaque consequuntur expedita voluptatum itaque doloribus velit sequi accusamus quod, sit quaerat accusantium.</p>
+    <h2>Subititulo do exercicio </h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores nesciunt necessitatibus esse vero cum, maiores repellendus praesentium voluptatem consequatur, saepe rerum veritatis ipsum, neque temporibus harum voluptatum rem ipsa nostrum.</p2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ratione id laborum maiores libero. Facere fugiat impedit omnis nobis. Neque consectetur dignissimos impedit quaerat consequuntur maiores dolor repellendus harum obcaecati?</p>
+
+</body>
+</html>

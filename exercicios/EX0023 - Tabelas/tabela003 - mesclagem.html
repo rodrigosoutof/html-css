@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 200px;
+        }
+        td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de tabela</h1>
+
+    <table>
+        <tr>
+            <td colspan="2">A</td>
+            <!--<td>B</td>-->
+            <td>C</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td rowspan="2">D</td>
+            <td>E</td>
+            <td colspan="2" rowspan="2">F</td>
+            
+        </tr>
+        <tr>
+            
+            <td>H</td>
+            
+            
+        </tr>
+
+    </table>
+    
+</body>
+</html>

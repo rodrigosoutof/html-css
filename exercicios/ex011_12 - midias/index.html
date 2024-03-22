@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Teste de mídias.</h1>
+
+    <h2>Imagem dinânimca</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="floresta-p.jpg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="floresta-m.jpg" type="image/jpeg">
+        <img src="floresta-g.jpg" alt="A imagem flexivel funciona!">
+    </picture>
+
+    <h2>Adicionando audio</h2>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="guanacast-33.mp3" type="audio/mpeg">
+        <p> Seu navegador não suporta audio? <a href="guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg"></a></p> 
+    </audio>
+    
+    <h2>Adicionando video</h2>
+
+    <h3>Video local</h3>
+
+    <video width="560" poster="floresta-m.jpg" controls autoplay>  
+        <source src="production ID_3831768.mp4" type="video/mp4">
+        <p>Infelizmente seu navegador não conseguiu carregar o vídeo.</p>
+    </video>
+
+    <h3> Video de um repositorio de videos</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/E01LDVj0Rpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        
+</body>
+</html>
