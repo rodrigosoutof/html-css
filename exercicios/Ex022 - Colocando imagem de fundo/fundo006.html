@@ -12,23 +12,23 @@
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
-           /*  background-position: contain; mostra toda imagem na tela, porem em casos onde a tela for menor, acaba criando listras na tela, achatando ou alongando a imagem*/
-           /* background-position: cover; adpata o fundo de acordo com a view port (vh), porem acaba cortando a imagem*/
+           /*  background-size: contain; mostra toda imagem na tela, porem em casos onde a tela for menor, acaba criando listras na tela, achatando ou alongando a imagem*/
+           /* background-size: cover; adpata o fundo de acordo com a view port (vh), porem acaba cortando a imagem*/
           /* background-attachment: fixed;  o padrão é a imagem rolar junto com o conteudo "scroll" porem podemos deixar a imagem fixa e rolar somente o conteudo*/
         
             /* Shorhand - background
             color > image > position > repeat > [size] > attachment
 
-            mesmo na norma estar descriminado o shorthand com cover, na pratica ele ainda não roda, é necessario declar o cover sozinho
+            [size] -> mesmo na norma estar descriminado o shorthand com cover, na pratica ele ainda não roda, é necessario declar o cover sozinho
             */
 
             background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
-            background-position: cover;
+            background-size: cover;
         
         }
         main{
             background-color: white;
-            max-width: 700px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
