@@ -48,7 +48,7 @@ a{
     font-weight: bolder;
 }
 
-header a:hover, footer a:hover{
+header a:hover, footer a:hover{/*Caso tenha necessidade de colocar algum link no meio do conteudo*/
     text-decoration: underline;
 }
 
