@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi magni ullam labore inventore suscipit iste, officia nihil ratione voluptatibus adipisci ad maxime ex voluptatum officiis dolor incidunt repellendus culpa quidem?
+    </p>
+    <!--Utilizamos o parametro sandbox="sandbox" / para que o iframe não possa capturar informaçoes no nosso site
+
+        sandbox="allow-same-origin allow-forms allow-scripts"  para aumentar a segurança, permitindo paginas da mesma origem e formularios
+    
+        referrerpolicy="no-referrer" -> Utilizado para que o site que esta no iframe não pegue seus dados para que seja oferecido propagandas
+    -->
+    <iframe src="paginas-extras/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        Seu navegador não é compatível com isso...
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facere explicabo molestiae quos? Veniam animi distinctio inventore, minus tempora doloremque unde itaque voluptate ex! Iusto delectus quasi maxime possimus ipsa!</p>
+</body>
+</html>
