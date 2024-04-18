@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+
+    <!--Para relacionarmos a label e o formulário precisamos nos atendar ao complementos. Em php e html o mais importante é o name="#", já que todo formulario tem que ter um nome.
+    No javascript, utiliza o id="#"
+    -->
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label> <input type="text" name="Nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+    
+</body>
+</html>
