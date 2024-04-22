@@ -16,7 +16,9 @@
     <!--Para relacionarmos a label e o formulário precisamos nos atendar ao complementos. Em php e html o mais importante é o name="#", já que todo formulario tem que ter um nome.
     No javascript, utiliza o id="#"
     -->
-    <form action="cadastro.php" autocomplete="off">
+
+    <!--method="post" = Temos dois metodos, o padrão que é o GET e o selecionavel que é o post. Utilizamos o post quando não queremos que os dados apareçam na url, ou sejam dados sensiveis, mas o post não criptografa os dados, ainda conseguimos verificar os dados do formulario ao inspecionar a pagina. GET quando os dados não forem sensiveis, até 3.000bytes, imagens ou carotes de credito utilizamos https ou post-->
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p><label for="inome">Nome:</label> <input type="text" name="Nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
