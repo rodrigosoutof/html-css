@@ -14,19 +14,38 @@ html{
 }
 
 body{
-    background: rgba(235, 19, 19, 0.89);
-    background-size: cover;
-    background-position: center center;
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgba(245, 116, 116, 0.89), rgb(219, 15, 15));
+    min-height: 150px;
+    padding: 20px;
 }
 
 h1{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 2em;
+    padding: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
 }
 h2{
-    color: white;
+    color: black;
     font-size: 1.5em;
+    padding: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+}
+section img{
+    width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+section img:hover{
+    border: 2px rgba(255, 255, 255, 0.664);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+    transition: transform s;
 }
