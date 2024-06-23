@@ -15,7 +15,7 @@ html{
 header{
     background-image: linear-gradient(to bottom, rgba(245, 116, 116, 0.89), rgb(219, 15, 15));
     min-height: 150px;
-    padding: 20px 20px 20px 50px;
+    padding: 20px;
 }
 
 main{
