@@ -19,7 +19,7 @@ header{
 }
 
 main{
-    background-color: white;
+    background-color: rgba(238, 234, 234, 0.842);
     max-width: 1000px;
     min-width: 300px;
     padding: 20px;
