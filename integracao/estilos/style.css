@@ -52,9 +52,10 @@ p{
 }
 
 section img{
-    width: 150px;
+    width: 128px;
     margin: 10px;
-    border-radius: 50%;
+    padding: 5px;
+    border-radius: 10%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
 }
