@@ -62,11 +62,11 @@ section img:hover{
     border: 2px rgba(255, 255, 255, 0.664);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
-    transition: transform s;
+    transition: transform 0.5s;
 }
 
 ul{
-    /*list-style-type: '\2714\00A0\00A0';*/
+    list-style-type: none
     list-style-type: disc ;
     list-style-position: inside;
     /*columns: 2;*/
@@ -75,13 +75,37 @@ ul{
     
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 2px 2px 20px black;
+}
+
 a.ini{
     display: block;
     padding-top: 20px;
 }
 
-iframe{ 
-    display: block;
-    text-align: center;
-    
+
+div.video{
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%; /* acaba gerando uma barra preta lateral no video, podendo ser ajustada de acordo com a porcentagem quanto com o video*/
+    position: relative;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+div.video > iframe{ /* configuração para deixar o video em formato absoluto, e centralizar e aumentar seu tamanho dentro das configuraçoes setadas na div video acima*/
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;  
 }
