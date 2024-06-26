@@ -48,7 +48,16 @@ p{
     text-align: justify;
     font-size: 1em;
     padding: 10px;
+    margin: 10px;
     text-indent: 20px;
+}
+img.raio{
+    border-radius: 10%;
+}
+img.raio:hover{
+        border: 2px rgba(255, 255, 255, 0.664);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
+        transition: transform 0.5s;
 }
 
 section img{
@@ -58,6 +67,7 @@ section img{
     border-radius: 10%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
+
 }
 section img:hover{
     border: 2px rgba(255, 255, 255, 0.664);
@@ -72,6 +82,10 @@ ul{
     list-style-position: inside;
     /*columns: 2;*/
     padding: 10px;
+}
+
+ul>li{
+    margin: 10px;
 }
 
 a{
@@ -106,4 +120,10 @@ div.video > iframe{ /* configuração para deixar o video em formato absoluto, e
     left: 5%;
     width: 90%;
     height: 90%;  
+}
+
+p.aplicativo{
+    display: flex;    
+    align-items: center;
+
 }
