@@ -14,14 +14,13 @@ html{
 
 header{
     background-image: linear-gradient(to bottom, rgba(245, 116, 116, 0.89), rgb(219, 15, 15));
-    min-height: 150px;
+    min-height: 110px;
     padding: 20px;
 }
 
 main{
     background-color: rgba(238, 234, 234, 0.842);
-    max-width: 1000px;
-    min-width: 300px;
+    width: 80vw;
     padding: 20px;
     margin: auto;
     margin-bottom: 30px;
@@ -32,7 +31,7 @@ main{
 
 main h1{
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     padding: 20px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
@@ -61,16 +60,15 @@ img.raio:hover{
 }
 
 section img{
-    width: 128px;
+    width: 120px;
     margin: 10px;
-    padding: 5px;
-    border-radius: 10%;
+    padding: 2px;
+    border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
 
 }
 section img:hover{
-    border: 2px rgba(255, 255, 255, 0.664);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589);
     transition: transform 0.5s;
@@ -84,7 +82,7 @@ ul{
     padding: 10px;
 }
 
-ul>li{
+ul > li{
     margin: 10px;
 }
 
@@ -125,5 +123,4 @@ div.video > iframe{ /* configuração para deixar o video em formato absoluto, e
 p.aplicativo{
     display: flex;    
     align-items: center;
-
 }
