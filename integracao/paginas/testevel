@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Ajuda ao Cliente</title>
+    <link rel="stylesheet" href="../estilos/style.css">
 </head>
 <body>
     <header>
-        <img src="imagens/claro-logo.png" alt="">
+        <img src="../imagens/claro-logo.png" alt="">
 
     </header>
     <main>
@@ -22,7 +22,7 @@
             <p class="aplicativo"><a href="https://play.google.com/store/search?q=speed%20test%20ooakla&c=apps&hl=pt_BR"><img class="raio" src="imagens/speedtest-logo.png" alt="Logo speedtest Ookla"></a> - Baixe aqui o aplicativo</p>  
              
 
-        <a class="ini" href="index.html"> <img src="imagens/home-logo.png" alt="Inicio"></a>
+            <a class="ini" href="index.html"> <img src="../imagens/home-logo.png" alt="Inicio"></a>
     </main>
 </body>
 </html>
