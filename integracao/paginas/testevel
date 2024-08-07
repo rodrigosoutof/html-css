@@ -22,7 +22,7 @@
             <p class="aplicativo"><a href="https://play.google.com/store/search?q=speed%20test%20ooakla&c=apps&hl=pt_BR"><img class="raio" src="imagens/speedtest-logo.png" alt="Logo speedtest Ookla"></a> - Baixe aqui o aplicativo</p>  
              
 
-            <a class="ini" href="index.html"> <img src="../imagens/home-logo.png" alt="Inicio"></a>
+            <a class="inicio" href="../index.html"> <img src="../imagens/home-logo.png" alt="Inicio"></a>
     </main>
 </body>
 </html>
