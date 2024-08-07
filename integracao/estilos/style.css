@@ -59,7 +59,7 @@ main > p{
 }
 
 section.container {
-    height: 350px;
+    height: 380px;
     display: flex;
     flex-flow: column;
     justify-content:space-evenly;
