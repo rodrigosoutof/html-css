@@ -7,5 +7,5 @@
  <p><a href="https://rodrigosoutof.github.io/html-css/desafios/desafio13/" target="_blank" rel="external">Projeto Redes Sociais</a></p>
  <p><a href="https://rodrigosoutof.github.io/html-css/desafios/desafio15/" target="_blank" rel="external"> Projeto Tela de Login</a></p>
  <p><a href="https://rodrigosoutof.github.io/html-css/integracao" target="_blank" rel="external"> Projeto Portal Clientes </a></p>
- 
+ <p><a href="https://rodrigosoutof.github.io/html-css/indicadores" target="_blank" rel="external"> Projeto Portal Técnico - CQ </a></p>
 
